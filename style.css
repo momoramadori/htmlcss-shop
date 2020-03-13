@@ -40,20 +40,63 @@ header img {
 #menu input {
     border-radius: 2px;
 }
-p {
-    height: 100px;
+#wrapper {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 .row {
-    margin top: 100px;
-    margin: auto;
-    width: 75%;
-    height: 40vh;
-    background-color: red;
-    border: 2px solid white;
+    width: 700px;
+    height: 250px;
 }
-.row div {
+.row div:not(.sconto) {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    position: relative;
     display: inline-block;
-    width: 33%;
-    height: 100%;
-    border: 1px solid black;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px black;
+}
+.sconto {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    background-color: red;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 300;
+}
+.sconto span {
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+#basso {
+    background-image: url("img/basso.jpg");
+
+}
+#batteria {
+    background-image: url("img/batteria.jpg");
+}
+#casse {
+    background-image: url("img/casse.jpg");
+}
+#chitarra {
+    background-image: url("img/chitarra.jpg");
+}
+#tastieramidi {
+    background-image: url("img/tastieramidi.jpg");
+}
+#ukulele {
+    background-image: url("img/ukulele.jpg");
+
 }
