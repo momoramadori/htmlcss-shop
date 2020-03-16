@@ -14,6 +14,7 @@ header {
     height: 70px;
     background-color: black;
     text-align: center;
+    z-index: 2;
 }
 header img {
     height: 80%;
@@ -60,6 +61,7 @@ header img {
     top: 60%;
     left: 50%;
     transform: translate(-50%,-50%);
+    z-index: 1;
 }
 .row {
     width: 700px;
